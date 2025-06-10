@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shabnam Shams Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>I am Shabnam Shams</h1>
+        <p>Welcome to my colorful portfolio!</p>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section home">
+            <h2>Welcome</h2>
+            <p>Hello! I am Shabnam Shams, a passionate and creative individual excited to showcase my journey and skills. 
+               I am originally from Afghanistan and strongly believe in the power of education, resilience, and self-expression.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about">
+            <h2>About Me</h2>
+            <p>
+                My name is Shabnam Shams, and I am an aspiring web designer and developer. I have a strong interest in building 
+                creative digital solutions, and I am always looking for opportunities to learn new skills and improve my craft. 
+                My dream is to inspire others through my work and contribute to meaningful change in my community.
+            </p>
+            <ul class="fun-facts">
+                <li>I enjoy creating vibrant and unique designs for web interfaces.</li>
+                <li>When I am not coding, I love painting, exploring nature, and reading books about innovation.</li>
+                <li>I believe in dreaming big and working tirelessly to achieve my goals.</li>
+            </ul>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio">
+            <h2>Portfolio</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project">
+                    <h3>Project 1: First Web Page</h3>
+                    <p>This was my very first project where I built a simple yet functional web page using HTML and CSS. 
+                       It marked the beginning of my journey into web development.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <h3>Project 2: Responsive Design</h3>
+                    <p>In this project, I explored responsive design principles, ensuring my web pages looked great on all 
+                       devices, from desktops to smartphones.</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <h3>Project 3: Portfolio Layout</h3>
+                    <p>As part of my learning process, I designed a creative layout for a personal portfolio. This project 
+                       allowed me to experiment with advanced CSS techniques.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Follow me on:</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com" target="_blank" class="social-icon">LinkedIn</a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon">Instagram</a>
+                <a href="https://www.twitter.com" target="_blank" class="social-icon">Twitter</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shabnam Shams Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
